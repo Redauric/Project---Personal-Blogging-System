@@ -47,9 +47,18 @@ As the elected team leader, I was responsible for overseeing all project tasks a
         - Testing: Regular testing of API endpoints in Postman to ensure bug-free frontend-backend connectivity
         - Database Security: Parameterized SQL queries used to minimize security risks
 
-## Samples of our website:
+## Screenshots of our website:
 
 ![alt text](image.png)
+
+### My Articles page:
+
 ![alt text](image-1.png)
+
+### Create Article page:
+
 ![alt text](image-2.png)
+
+### Comments page:
+
 ![alt text](image-4.png)
