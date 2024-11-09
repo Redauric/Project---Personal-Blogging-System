@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* System Fonts as used by GitHub */
+
+:root {
+  --white: #ffffff;
+  --orange: #ea552b;
+  --lightgrey: #e2dedd;
+  --mustard: #f7cf46;
+  --darkmustard: #fec711;
+  --goldenyellow: #ffbf00;
+  --black: #000000;
+  --lightpink: #fabdc4;
+  --lilac: #f3dade;
+  --red: #b90428;
+  --tungsten: rgb(210, 198, 190);
+  --font-size-base: 1rem;
+  --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+  --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+  --border-radius: 10px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--black);
+  font-size: var(--font-size-base);
+  background-color: var(--white);
+  margin: 0;
+  padding: 0 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0px;
+  }
+}
